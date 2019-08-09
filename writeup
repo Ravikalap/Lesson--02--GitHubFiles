@@ -1,0 +1,27 @@
+Below are the stepts to deploy files to Bitbucket via Git:
+
+Bit Bucket - Its a Web based version control repository service for source code and development projects that use either mercurial or git source control systems.
+
+Steps:
+
+Bit bucket Setup Process
+ - Set up your Bitbucket account
+ - Create a repository with specific access level 
+ - Generate 
+
+Create files with requried contents under specific folder
+
+
+Generate SSH keys and add it to Bitbucket(From Bitbucket settings > SSH Keys > Add Key
+
+Clone Bitbucket repository and add created files to the cloned folder.
+In order to push all the files, initialize a .git folder inside the folder with below commands.
+ - git init
+ - git add .
+ - git commit -m "message"
+ - git status
+
+Push all the files to Bitbucket and Reload to show the files.
+
+
+
